@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(41, 61, 90, 0.99);
+    background-color: rgba(27, 39, 58, 0.99);
 }
 .navigation *{
     background-color: rgba(41, 61, 90, 0.99);
@@ -32,7 +32,7 @@ body{
 
 .about {
     color: white;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
 }
 
 .profile_image *{

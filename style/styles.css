@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgba(16, 31, 56, 0.99);
 }
@@ -8,8 +12,7 @@ body{
 
 .intro {
     color: white;
-    margin-top: 150px;
-    margin-bottom: 200px;
+    padding: 150px 0px 200px 0px;
 }
 
 .intro h1.name{
@@ -50,10 +53,10 @@ h3{
 
 .about {
     color: white;
-    margin-bottom: 250px;
+    padding: 150px 0px 200px 0px;
 }
 
-.about span{
+span{
     color: rgba(24, 213, 219, 0.99);
 }
 
@@ -75,7 +78,7 @@ h3{
 }
 
 .work {
-    margin-bottom:200px
+    padding: 150px 0px 200px 0px;
 }
 
 .work span{

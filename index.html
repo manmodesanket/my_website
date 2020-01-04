@@ -12,54 +12,139 @@
     <title>Profile</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Sanket</a>
-            <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./blogs.html">Blogs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./gallery.html">Gallery</a>
-                    </li>
-                </ul>
+    <div class="navigation">
+        <nav class="navbar navbar-expand-sm fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Sanket</a>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./blogs.html">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./gallery.html">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container intro" id="intro">
+        <div class="row">
+            <div class="col-sm-3">
+                <span>Hello, my name is</span> 
+            </div>
+        </div>    
+        <div class="row">
+            <div class="col-sm-7">
+                <h1>Sanket Mannode.</h1>
             </div>
         </div>
-    </nav>
-    <div class="container">
-        <div class="col-sm-3 ">
-            <div class="row">
-                <img src="img/12.jpeg" alt="Sanket" class="profile_image">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>I think my passion is Web Development.</h1>
             </div>
-            <div class="row heading">
-                <h3>Sanket Manmode</h3>
-            </div>
-            <div class="row heading">
-                <p>Student at MIT College of Engineering, Pune</p>
-            </div>
-            <div class="social heading">
-                <div class="row heading">
-                    <p>Connect with me at:</p>
-                </div>
-                <div class="row heading">
-                    <a class="btn btn-social-icon btn-linkedin profile_buttons" href="http://www.linkedin.com/in/manmodesanket" target="_blank">
-                        <span class="fa fa-linkedin fa-lg"></span>
-                    </a>
-                    <a class="btn btn-social-icon btn-twitter profile_buttons" href="https://twitter.com/_manmodesanket" target="_blank">
-                        <span class="fa fa-twitter fa-lg"></span>
-                    </a>
-                    <a class="btn btn-social-icon btn-github profile_buttons" href="https://github.com/manmodesanket" target="_blank">
-                        <span class="fa fa-github fa-lg"></span>
-                    </a>
+        </div>
+        <div class="row college"> 
+            <div class="col-sm-8">
+                <div>
+                    <p>
+                        I am a Final Year Engineering Student at MIT College of Engineering, Pune. I am specializing in Information
+                        Technology. Currently working on my React framework and Problem Solving skills. I also spend my time on Hackerrank 
+                        and Codechef.
+                    </p>
                 </div>
             </div>
+        </div>
+        <div class="row social">
+            <div class="col-sm-8">
+                <p>Get in touch with me at:</p>
+                <a class="btn btn-social-icon btn-linkedin profile_buttons" href="http://www.linkedin.com/in/manmodesanket" target="_blank">
+                    <span class="fa fa-linkedin fa-lg"></span>
+                </a>
+                <a class="btn btn-social-icon btn-twitter profile_buttons" href="https://twitter.com/_manmodesanket" target="_blank">
+                    <span class="fa fa-twitter fa-lg"></span>
+                </a>
+                <a class="btn btn-social-icon btn-github profile_buttons" href="https://github.com/manmodesanket" target="_blank">
+                    <span class="fa fa-github fa-lg"></span>
+                </a>
+                <a class="btn btn-social-icon btn-instagram profile_buttons" href="https://www.instagram.com/manmodesanket/" target="_blank">
+                    <span class="fa fa-instagram fa-lg"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container about" id="about">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <p>
+                        Hello! This is Sanket. Soon to be a Software Engineer.  I will be graduating from MIT College of Engineering, Pune, 
+                        India in 2020 with a Bachelor of Engineering Degree. I am currently a student developer at Crio.Do. I want to be a 
+                        Web Developer.
+                    </p>
+                </div>
+                <div class="row">
+                    <p>
+                        I love Footabll. My favourite team is Manchester United (Yeah I know! Good days are coming. I hope.)
+                    </p>
+                </div>
+                <div class="row">
+                    <p>Here are a few technologies I've been working with recently:</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <ul>
+                            <li> JavaScript</li>
+                            <li>HTML,CSS</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <ul>
+                            <li>C, C++</li>
+                            <li>Python</li>
+                            <li>React</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 profile_image">
+                    <img src="img/13.jpeg" class="img-thumbnail" alt="Sanket">
+            </div>
+        </div>
+    </div>
+    <div class="container work">
+        <div class="row">
+            <h1>Where I've Worked</h1>
+        </div>
+        <div class="row">
+            <h3>01. Student Developer @ Crio.Do</h3>
+        </div>
+        <div class="row">
+            <p>Jan 2020 - Present</p>
+        </div>
+        <div class="row">
+            <ul>
+                <li>I will build products named QMoney, QStore and QBox.</li>
+                <li>QMoney, a personal stock portfolio analysis and recommendations platform.</li>
+                <li>QStore, a customized product data store for an e-commerce platform.</li>
+                <li>QBox, a secured file-sharing solution for enterprise networks.</li>
+            </ul>
+        </div>
+        <div class="row">
+            <p>
+                This is my first work experience. More experiences to come.
+            </p>
         </div>
     </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->

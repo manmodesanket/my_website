@@ -1,13 +1,49 @@
-.heading{
-    margin:0px 0px 0px 0px
+body{
+    background-color: rgba(41, 61, 90, 0.99);
 }
-.profile_image{
-    padding: 10px 10px 10px 10px ;
-    height: 380;
-    width: 310;
+.navigation *{
+    background-color: rgba(41, 61, 90, 0.99);
+    color: white;
+}
+
+.intro {
+    color: white;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.intro h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+
+.intro .college{
+    margin-top: 50px;
 }
 
 .profile_buttons{
-    text-align: center;
-    margin: 0px 5px 0px 0px;
+    margin-left: 15px;
+}
+
+.social{
+    margin-top:40px
+}
+
+.about {
+    color: white;
+    margin-bottom: 200px;
+}
+
+.profile_image *{
+    padding: 10px 10px 10px 10px ;
+    height: 380;
+    width: 310;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.work {
+    color: white;
+    margin-bottom:200px
 }

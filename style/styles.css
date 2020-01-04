@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(27, 39, 58, 0.99);
+    background-color: rgba(16, 31, 56, 0.99);
 }
 .navigation *{
     background-color: rgba(41, 61, 90, 0.99);
@@ -12,18 +12,36 @@ body{
     margin-bottom: 200px;
 }
 
-.intro h1{
+.intro h1.name{
     font-size: 60px;
     margin-bottom: 10px;
 }
 
+h1{
+    color: rgba(204, 217, 236, 0.99);
+}
+
+h3{
+    color: rgba(204, 217, 236, 0.99);
+}
+
+.intro p.passion{
+    color: rgba(157, 191, 245, 0.99);
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.intro p{
+    color: rgba(164, 180, 206, 0.99);
+    margin-bottom: 10px;
+}
 
 .intro .college{
     margin-top: 50px;
 }
 
 .profile_buttons{
-    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .social{
@@ -35,6 +53,19 @@ body{
     margin-bottom: 250px;
 }
 
+.about span{
+    color: rgba(24, 213, 219, 0.99);
+}
+
+.about p{
+    color: rgba(164, 180, 206, 0.99);
+}
+
+.about ul{
+    color: rgba(164, 180, 206, 0.99);
+}
+
+
 .profile_image *{
     padding: 10px 10px 10px 10px ;
     height: 380;
@@ -44,6 +75,20 @@ body{
 }
 
 .work {
-    color: white;
     margin-bottom:200px
+}
+
+.work span{
+    color: rgba(24, 213, 219, 0.99);
+}
+
+.work .description{
+    color: rgba(164, 180, 206, 0.99);
+}
+
+.footer{
+    color: rgba(164, 180, 206, 0.99);
+    text-align: center;
+    background-color: rgba(41, 61, 90, 0.99);
+    padding: 30px;
 }

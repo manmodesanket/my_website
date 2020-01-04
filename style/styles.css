@@ -89,9 +89,9 @@ span{
     color: rgba(164, 180, 206, 0.99);
 }
 
-.footer{
-    color: rgba(164, 180, 206, 0.99);
+.footer {
+    padding: 30px;
     text-align: center;
     background-color: rgba(41, 61, 90, 0.99);
-    padding: 30px;
+    color: rgba(164, 180, 206, 0.99);
 }

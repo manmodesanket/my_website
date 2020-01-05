@@ -1,7 +1,7 @@
 # my_website
 My Profile on the internet.
 
-Link - manmodesanket.netlify.com
+<a href="https://manmodesanket.netlify.com/">Visit my website.</a>
 
 This is a first version of my first website.
 

@@ -1,0 +1,106 @@
+$background-body:rgba(16, 31, 56, 0.99);
+$background-nav-foot:rgba(41, 61, 90, 0.99);
+$padding: 150px 0px 200px 0px;
+$font-size-h1:60px;
+$color-h1:rgba(204, 217, 236, 0.99);
+$color-h3:rgba(204, 217, 236, 0.99);
+$p-color:rgba(164, 180, 206, 0.99);
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: $background-body;
+}
+
+.navigation *{
+    background-color: $background-nav-foot;
+    color: white;
+}
+
+.intro {
+    color: white;
+    padding: $padding;
+}
+
+.intro h1.name{
+    font-size: $font-size-h1;
+    margin-bottom: 10px;
+}
+
+h1{
+    color: $color-h1;
+}
+
+h3{
+    color: $color-h3;
+}
+
+.intro p.passion{
+    color: rgba(157, 191, 245, 0.99);
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.intro p{
+    color: $p-color;
+    margin-bottom: 10px;
+}
+
+.intro .college{
+    margin-top: 50px;
+}
+
+.profile_buttons{
+    margin-right: 15px;
+}
+
+.social{
+    margin-top:40px
+}
+
+.about {
+    color: white;
+    padding: $padding;
+}
+
+span{
+    color: rgba(24, 213, 219, 0.99);
+}
+
+.about p{
+    color: $p-color;
+}
+
+.about ul{
+    color: $p-color;
+}
+
+.profile_image *{
+    height: 380;
+    width: 310;
+    margin-left: 50px;
+}
+
+.work {
+    padding: $padding;
+}
+
+.work span{
+    color: rgba(24, 213, 219, 0.99);
+}
+
+.work .description{
+    color: $p-color;
+}
+
+.footer {
+    padding: 30px;
+    text-align: center;
+    background-color: $background-nav-foot;
+    color: $p-color;
+}
+
+
+

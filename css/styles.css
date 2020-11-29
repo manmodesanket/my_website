@@ -96,8 +96,7 @@ span {
 .projects{
     padding-left: 30px;
     padding-top: 190px;
-    margin-top: 150px;
-    margin-bottom: 150px; 
+    margin-top: 150px; 
 }
 
 .projects > * {
@@ -109,4 +108,11 @@ span {
   text-align: center;
   background-color: rgba(41, 61, 90, 0.99);
   color: rgba(164, 180, 206, 0.99); 
+}
+
+.blogs {
+    padding-left: 30px;
+    padding-top: 190px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
